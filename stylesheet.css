@@ -69,7 +69,6 @@ a:hover{
 	text-shadow: 3px 3px 1px #46293F;
 	transition-duration: 0.3s;
 	transition-timing-function: cubic-bezier(.41,0,.3,1.5);
-	content-reset: none;
 	width: 50%;
 	box-shadow: 5px 5px 1px #c7dcd0 inset;
 	font-weight:1000;
@@ -173,7 +172,7 @@ content: attr(data-active) !important;
 /* --------- */
 #bottom {
 	position: relative;
-	top:-10vmin;
+	top:calc(-10vw);
 	margin-top: 0px;
 	padding-top: 0px;
 	display: flex;
