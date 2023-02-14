@@ -57,7 +57,7 @@ a:hover{
 	top: 50%;
 	margin-bottom: 20%;
 	color: #fbb954;
-	font-size: 5vmin;
+	font-size: calc(20px + 3vmax);
 	background: #fff;
 	backdrop-filter: blur(5px);
 	padding: 1vmin;
