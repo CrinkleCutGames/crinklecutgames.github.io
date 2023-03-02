@@ -101,6 +101,7 @@ a:hover{
 	-webkit-box-shadow: 5px 5px 1px #c7dcd0 inset;
 	        box-shadow: 5px 5px 1px #c7dcd0 inset;
 	font-weight:1000;
+	 display: inline-block;
 }
 
 #wishlistnow:after{
