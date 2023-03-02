@@ -191,6 +191,7 @@ content: attr(data-active) !important;
 	-webkit-transform: translate(0,-20vw);
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+	height: 20vmax;
 }
 
 #botlogo {
