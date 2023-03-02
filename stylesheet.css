@@ -75,6 +75,7 @@ a:hover{
 
 /* Wishlist button */
 #wishlistnow {
+	text-decoration: none;
 	top: 50%;
 	margin-bottom: 20%;
 	color: #fbb954;
