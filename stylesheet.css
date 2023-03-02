@@ -224,7 +224,7 @@ content: attr(data-active) !important;
 	#cutlogo {
 		position: absolute;
 		background-color: #46293F;
-		height: 20vw;
+		height: 25vw;
 		width: 100vw;
 		-webkit-box-pack: center;
 	    -ms-flex-pack: center;
@@ -238,9 +238,9 @@ content: attr(data-active) !important;
 	#logo {
 		z-index:1002;
 		height: 22.61vwvw;
-		-ms-transform: translate(0,-10vw);
-	    transform: translate(0,-10vw);
-		-webkit-transform: translate(0,-10vw);
+		-ms-transform: translate(0,-15vw);
+	    transform: translate(0,-15vw);
+		-webkit-transform: translate(0,-15vw);
 	}
 }
 @media screen and (orientation: landscape){
