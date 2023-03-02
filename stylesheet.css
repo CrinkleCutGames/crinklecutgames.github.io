@@ -64,12 +64,12 @@ a:hover{
 	border-radius: 3vmin;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: bold;
-	border: 0.7vmin solid #46293F;
+	border: 1.2vmin solid #46293F;
 	filter: drop-shadow(1vmin 1vmin 0px #46293F);
 	text-shadow: 3px 3px 1px #46293F;
 	transition-duration: 0.3s;
 	transition-timing-function: cubic-bezier(.41,0,.3,1.5);
-	width: 50%;
+	width: 75vw;
 	box-shadow: 5px 5px 1px #c7dcd0 inset;
 	font-weight:1000;
 }
@@ -108,8 +108,7 @@ content: attr(data-active) !important;
 	background-image: url("assets/images/HeroImg.png");
 	background-color: #46293F;
 	background-repeat: no-repeat;
-	height: 70%;
-	min-height: 100%;
+	height: 95vh;
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center;
@@ -131,16 +130,16 @@ content: attr(data-active) !important;
 	flex-direction: column;
 	justify-content: flex-start;
 	position: relative;
-	transform: translate(0,-99%);
+	transform: translate(0,-20vw);
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 }
 
 #botlogo {
 	position: relative;
-	width: 50%;
-	padding-right: 25%;
-	padding-left: 25%;
+	width: 75vw;
+	padding-right: 12.5vw;
+	padding-left: 12.5vw;
 	margin-left: auto;
 	margin-right: auto;
 	display: flex;
@@ -156,7 +155,7 @@ content: attr(data-active) !important;
 #cutlogo {
 	position: absolute;
 	background-color: #46293F;
-	height: 10vmin;
+	height: 10vw;
 	width: 100vw;
 	justify-content: center;
 	align-items: center;
@@ -172,7 +171,7 @@ content: attr(data-active) !important;
 /* --------- */
 #bottom {
 	position: relative;
-	top:calc(-10vw);
+	top:-15vw;
 	margin-top: 0px;
 	padding-top: 0px;
 	display: flex;
@@ -185,12 +184,14 @@ content: attr(data-active) !important;
 
 .horizontalcontent {
 	flex-direction: column;
-		padding-left: 15px;
+	padding-left: 15px;
 	padding-right: 15px;
 
 }
 
 #footer{
+	position: relative;
+    top:-5vw;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
