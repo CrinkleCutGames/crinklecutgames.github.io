@@ -91,7 +91,7 @@ a:hover{
 	border: 1.2vmin solid #46293F;
 	filter: drop-shadow(1vmin 1vmin 0px #46293F);
 	-webkit-filter: drop-shadow(1vmin 1vmin 0px #46293F);
-	text-shadow: 3px 3px 1px #46293F;
+	/* text-shadow: 3px 3px 1px #46293F; */
 	-webkit-transition-duration: 0.3s;
 	     -o-transition-duration: 0.3s;
 	        transition-duration: 0.3s;
