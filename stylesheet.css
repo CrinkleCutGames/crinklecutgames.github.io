@@ -147,6 +147,7 @@ content: attr(data-active) !important;
 /* HeroImg */
 @media screen and (orientation: portrait){
 	#hero {
+		background-attachment:scroll;
 		background-image: url("assets/images/HeroImg.png");
 		background-color: #46293F;
 		background-repeat: no-repeat;
