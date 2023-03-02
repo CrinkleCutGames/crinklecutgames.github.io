@@ -60,12 +60,14 @@ a:hover{
 	font-size: calc(20px + 3vmax);
 	background: #fff;
 	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
 	padding: 1vmin;
 	border-radius: 3vmin;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: bold;
 	border: 1.2vmin solid #46293F;
 	filter: drop-shadow(1vmin 1vmin 0px #46293F);
+	-webkit-filter: drop-shadow(1vmin 1vmin 0px #46293F);
 	text-shadow: 3px 3px 1px #46293F;
 	transition-duration: 0.3s;
 	transition-timing-function: cubic-bezier(.41,0,.3,1.5);
@@ -80,6 +82,7 @@ a:hover{
 
 #wishlistnow:hover {
 	filter: drop-shadow(0vw 0vw 0px #fbb954);
+	-webkit-filter: drop-shadow(0vw 0vw 0px #fbb954);
 	border: 0.7vmin solid #fbb954;
 	color: #fbb954;
 	transition-duration: 0.4s;
@@ -92,6 +95,7 @@ a:hover{
 }
 #wishlistnow:focus {
 	filter: drop-shadow(0vmin 0vmin 0px #7f708a);
+	-webkit-filter: drop-shadow(0vmin 0vmin 0px #7f708a);
 	border: 1vmin solid #e83b3b;
 	background: white;
 	color: #e83b3b;
@@ -115,6 +119,7 @@ content: attr(data-active) !important;
 	color: red;
 	text-align: center;
 	display: flex;
+	display: -webkit-flex;
 	align-items: center;
 	justify-content: center;
 	margin-bottom: 0px;
@@ -125,12 +130,14 @@ content: attr(data-active) !important;
 /* --------- */
 #bothorizontal {
 	transform-origin: top center;
+	-webkit-transform-origin: top center;
 	height: fit-content;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	position: relative;
 	transform: translate(0,-20vw);
+	-webkit-transform: translate(0,-20vw);
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 }
