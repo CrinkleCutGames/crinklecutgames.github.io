@@ -75,7 +75,7 @@ a:hover{
 
 /* Wishlist button */
 #wishlistnow {
-	z-index: 3;
+	z-index: 10;
 	text-decoration: none;
 	top: 50%;
 	margin-bottom: 20%;
@@ -219,7 +219,7 @@ content: attr(data-active) !important;
 		-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 		justify-content: center;
-		z-index: -1000;
+		z-index: 1;
 		margin-bottom: 0px;
 		padding-bottom: 0px;
 	}
@@ -239,7 +239,7 @@ content: attr(data-active) !important;
 		z-index:1;
 	}
 	#logo {
-		z-index:2;
+		z-index:5;
 		height: 22.61vwvw;
 		-ms-transform: translate(0,-15vw);
 	    transform: translate(0,-15vw);
@@ -340,7 +340,7 @@ content: attr(data-active) !important;
 		z-index:1;
 	}
 	#logo {
-		z-index:2;
+		z-index:5;
 		height: 22.61vw;
 		-ms-transform: translate(0,0);
 	    transform: translate(0,0);
