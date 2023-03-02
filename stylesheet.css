@@ -195,7 +195,7 @@ content: attr(data-active) !important;
 		-webkit-transform: translate(0,-20vw);
 		margin-bottom: 0px;
 		padding-bottom: 0px;
-		height: 20vw;
+		height: 30vw;
 	}
 
 	#botlogo {
@@ -227,7 +227,7 @@ content: attr(data-active) !important;
 	#cutlogo {
 		position: absolute;
 		background-color: #46293F;
-		height: 25vw;
+		height: 35vw;
 		width: 100vw;
 		-webkit-box-pack: center;
 	    -ms-flex-pack: center;
@@ -241,9 +241,13 @@ content: attr(data-active) !important;
 	#logo {
 		z-index:5;
 		height: 22.61vwvw;
-		-ms-transform: translate(0,-15vw);
-	    transform: translate(0,-15vw);
-		-webkit-transform: translate(0,-15vw);
+		-ms-transform: translate(0,-25vw);
+	    transform: translate(0,-25vw);
+		-webkit-transform: translate(0,-25vw);
+	}
+
+	#bottom {
+		top: -40vw;
 	}
 }
 @media screen and (orientation: landscape){
@@ -346,12 +350,15 @@ content: attr(data-active) !important;
 	    transform: translate(0,0);
 		-webkit-transform: translate(0,0);
 	}
+	#bottom{
+	top: -15vw;
+	}
 }
 /* Bottom content */
 /* --------- */
 #bottom {
 	position: relative;
-	top:-15vw;
+
 	margin-top: 0px;
 	padding-top: 0px;
 	display: -webkit-box;
