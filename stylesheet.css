@@ -6,6 +6,7 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 /* Standard elements */
 /* ----------------- */
@@ -32,14 +33,14 @@ body {
 }
 
 h1 {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Fredoka One', cursive;
 	font-size: calc(12px + 2vw);
 	font-weight: 500;
 	color: white;
 }
 
 h2 {
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Fredoka One', cursive;
 	font-size: calc(8px + 1.5min);
 	font-weight: 100;
 	color: white;
@@ -74,7 +75,9 @@ a:hover{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+
 }
 
 /* Hero img and wishlist button */
@@ -93,7 +96,7 @@ a:hover{
 	-webkit-backdrop-filter: blur(5px);
 	padding: 1vmin;
 	border-radius: 3vmin;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Fredoka One', cursive;
 	font-weight: bold;
 	border: 1.2vmin solid #46293F;
 	filter: drop-shadow(1vmin 1vmin 0px #46293F);
@@ -253,6 +256,10 @@ content: attr(data-active) !important;
 		-webkit-transform: translate(0,-25vw);
 	}
 
+	.center { 
+		width: 75vw;
+	}
+
 	#bottom {
 		top: -40vw;
 	}
@@ -357,6 +364,12 @@ content: attr(data-active) !important;
 	    transform: translate(0,0);
 		-webkit-transform: translate(0,0);
 	}
+
+	.center { 
+		width: 50vw;
+
+	}
+
 	#bottom{
 	top: -15vw;
 	}
@@ -397,7 +410,7 @@ content: attr(data-active) !important;
 
 #footer{
 	position: relative;
-    top:-5vw;
+
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -438,4 +451,8 @@ content: attr(data-active) !important;
 ::-webkit-scrollbar-thumb:hover {
   background: #fbb954;
   border-color: #fbb954;
+}
+
+iframe {
+	border-style: none;
 }
