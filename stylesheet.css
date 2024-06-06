@@ -59,7 +59,7 @@ h3{
     line-height: 0;
     top: calc(56.24vw - 48px);
     -ms-transform: translateY(calc(56.24vw - 48px));
-    transform: translateY(calc(56.24vw - 13vw));
+    transform: translateY(calc(56.24vw - 10vw - 54px));
     background-image: url(assets/PurpleDivider.png);
     background-repeat: repeat-x;
     
