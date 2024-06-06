@@ -1,52 +1,125 @@
-<!DOCKTYPE html>
-<html lang="en">
-<head>
-	<title>Crinkle Cut Games</title>
+<!DOCTYPE html>
+<html>
+<Head>
+    <title>Crinkle Cut Games</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="stylesheet.css">
-	<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
-    <!--link rel="shortcut icon" href="/assets/css/favicons/favicon.ico"//-->
-    <!--link rel="stylesheet" href="/assets/css/main.css"/-->
-</head>
+    <link rel="stylesheet" href="stylesheet.css">
+</Head>
 <body>
-	<!-- Hero image -->
-	
-	<div id="hero">
-		<!--img src="assets/images/HeroImg.png"-->
-		
-			<!--<button id="wishlistnow" data-default="Wishlist on Steam!" data-hover="&#128279 To Steam!" data-active="&#10084 Thanks" onclick="window.open('https://store.steampowered.com/app/2274620/Discounty/','_blank')"></button1>-->
-			<a id="wishlistnow" data-default="Wishlist on Steam!" data-hover="&#128279; To Steam!" data-active="&#10084; Thanks" rel="noopener" href='https://store.steampowered.com/app/2274620/Discounty/'></a>
-		
-	</div>
-	<div id="bothorizontal">
-			<div id="botlogo"> 
-				<img id="logo" src="assets/images/DiscountyLogo.svg">
-				<div id=cutlogo>
-					&nbsp;
-				</div>
-			</div>
-	</div>
-	
+<div class="navigation">    
+</div>
+    
+    <div id="hero">
+        <div class="divider">
+            <div id="wishlist-platforms">
+            <a href="https://store.steampowered.com/app/2274620/Discounty/" style="border: none;"><button type="button" class="platform-button"><img class="platform-button-image" src="assets/steam-seeklogo.svg"></button></a>
+            <!---
+            <a href="https://store.steampowered.com/app/2274620/Discounty/" style="border: none;"><button type="button" class="platform-button"><img class="platform-button-image" src="assets/Nintendo_Switch_Logo_(without_text).svg"></button></a>
+            <a href="https://store.steampowered.com/app/2274620/Discounty/" style="border: none;"><button type="button" class="platform-button"><img class="platform-button-image" src="assets/PlayStation_logo.svg"></button></a>
+            <a href="https://store.steampowered.com/app/2274620/Discounty/" style="border: none;"><button type="button" class="platform-button"><img class="platform-button-image" src="assets/Xbox_Logo.svg"></button></a>
+            <a href="https://store.steampowered.com/app/2274620/Discounty/" style="border: none;"><button type="button" class="platform-button"><img class="platform-button-image" src="assets/Epic_Games_logo.svg"></button></a>
+            <a href="https://store.steampowered.com/app/2274620/Discounty/" style="border: none;"><button type="button" class="platform-button"><img class="platform-button-image" src="assets/GOG.com_logo.svg"></button></a>
+            -->
+        </div>
+        </div>        
+    </div> 
+<div class="section">
+    <a href="https://store.steampowered.com/app/2274620/Discounty/" style="border:none;"><button type="button" class="fullscreen-button" id="wishlistbutton"></button></a>
+</div>
+    <div style="background-image: url(assets/YellowDivider.png); height: 54px;background-repeat: repeat-x; margin-top: 16px;"></div>
+<div id="game-description">
+    <div class="section">
+        <div class="columns">
+            <div class="halfcolumn">
+                <h2>Discounty 🛒</h2>
+                <p>Manage your own supermarket! Organize and restock shelves, check customers out, make local trade deals, and befriend a quirky cast of characters. Salvage a failing shop in the once-thriving town and grow it into a thriving business empire. But be warned: not everyone in town wants you to succeed.</p>
+                <a href="https://store.steampowered.com/app/2274620/Discounty/">Read more and add to your wishlist </a>
+            </div>
+            <div class="halfcolumn">
+                <iframe width="100%" id="game-galary" style="border-radius: 16px" src="https://www.youtube.com/embed/5sifUwGiU34?si=2IwCWv1A8p52DlD9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            </div>
+    </div>
+    <div style="background-image: url(assets/OrangeDivider.png); height: 54px;background-repeat: repeat-x; margin-top: 16px;"></div>
+</div>
 
-	<!-- Contact info -->
-	<div id="bottom">
-		<div class="horizontalcontent" >
-			<h1>Get in contact! &#128172</h1>
-			<p>Twitter: <a href="https://twitter.com/DiscountyGame" target="_blank" rel="noopener noreferrer">@DiscountyGame</a></p>
-			<p>TikTok: <a href="https://www.tiktok.com/@discountygame" target="_blank" rel="noopener noreferrer">@discountygame</a></p>
-			<p>Email: <a onclick="copyToClipboard()">crinklecutgames@gmail.com</a></p>
-			<script>
-				function copyToClipboard(){
-					navigator.clipboard.writeText("crinklecutgames@gmail.com");
-					alert("Copied to clipboard!");
-				}
-			</script>
-		</div>
-
-	</div>
-	<div id="footer">
-		<h2>Crinkle Cut Games 2023</h2>
-	</div>
+<div style="background-color: #e6904e;">
+    <div id="overlay" onclick="off()">
+        <div id="overlay-element">
+        <iframe width="540" height="810" scrolling="no" src="https://eb0791ef.sibforms.com/serve/MUIFAILBeB1c_RbakIdC9EkZzQdSgoye3aDPah_YgJoPQJ6qdjOE82T7AWFvyE5Jt2XBIzA_CsAh4jf4ZD-fSsH1ZBVXfYIn_F1ryeBNJ0lgGmLJJzOLffslugly4I8MUtKXUlEoAnj6DTqMZwICnwzXw0iHIrQIvIFCy7StM499Cw6qpMPYEkMfVnAg4bMnTiL24lBU7HhZVvDC" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"></iframe>
+        <p style="text-align: center; color: #fbb954;"><i>Click anywhere to go back!</i></p>
+        </div>
+    </div>
+    <div class="section">
+        <button onclick="on()" class="fullscreen-button" id="newsletter-button"></button>
+    </div>
+    <script>
+        function on() {
+            document.getElementById("overlay").style.display = "block";
+        }
+        function off() {
+            document.getElementById("overlay").style.display = "none";
+        }
+    </script>
+    <div style="background-image: url(assets/GrayDivider.png); height: 54px;background-repeat: repeat-x; margin-top: 16px;"></div>
+</div>
+    
+<div id="company-description">
+    <div class="section">
+        <div class="columns">
+            <div class="halfcolumn">
+                <img src="assets/CrinkleCutGamesLogoColorWhiteOutline.png" style="width: 75%; margin: auto; display: block;">
+            </div>
+            <div class="halfcolumn">
+                <h2>About us </h2>
+                <p>Crinkle Cut Games is a Danish game studio founded by three game development graduates in 2021 after receiving a cultural grant from the Danish Film Institute to build our debut game Discounty. Later, British publisher PQube invested in the project to amplify the scope and reach of Discounty. <br><br>
+                    Our goal is to build a sustainable and inclusive game studio, focusing on making peaceful and quirky games with well-crafted interactions and a dash of satire and subversion.<br><br> 
+                    We love odd and under-explored genres, especially those many wouldn't consider being "real games" and we are committed to making games for all, regardless of ability, race, or gender expression.</p>
+            </div>
+        </div>
+       
+    </div>
+     <div style="background-image: url(assets/DarkGrayDivider.png); height: 54px;background-repeat: repeat-x; margin-top: 16px;"></div>
+    <div  style="background-color: #9babb2">
+        <div class="section" >
+            <h2>Meet the team!</h2>
+            <div class="thirdcolumn-container">
+                <div class="employee-description">
+                    <img src="assets/AnnePicture.jpg" class="employee-picture">
+                    <h3>Anne</h3><a style="border:none;">Writer</a>
+                </div>
+                <div class="employee-description">
+                    <img src="assets/MagnusPic.jpg" class="employee-picture">
+                    <h3>Magnus</h3><a href="https://x.com/Hi_ImAwhale">Artist 🔗</a>
+                </div>
+                <div class="employee-description">
+                    <img src="assets/MathiasPicture.jpg" class="employee-picture">
+                    <h3>Mathias</h3><a href="https://x.com/m_schifter">Programmer 🔗</a>
+                </div>
+                <div class="employee-description">
+                    <img src="assets/IanPicture.jpg" class="employee-picture">
+                    <h3>Ian</h3><a href="https://linktr.ee/eestew">Marketing 🔗</a>
+                </div>
+                <div class="employee-description">
+                    <img src="assets/JamesPicture.jpg" class="employee-picture">
+                    <h3>James</h3><a href="https://www.jamesmusic.co.uk/Guitar">Music 🔗</a>
+                </div>
+            </div>
+        
+    </div>
+    <div style="background-image: url(assets/YellowDivider.png); height: 54px;background-repeat: repeat-x; margin-top: 16px;"></div>
+    </div>
+    
+    </div>
+    
+<div id="footer">
+    <div class="section">
+        <h2> Get in contact!</h2>
+            <button type="button" class="contact-button"><a href="https://www.tiktok.com/@discountygame"><img class="contact-button-image" src="assets/tiktok-512.png"></a></button>
+            <button type="button" class="contact-button"><a href="https://www.instagram.com/discountygame/"><img class="contact-button-image" src="assets/Instagram_Glyph_Black.png"></a></button>
+            <button type="button" class="contact-button"><a href="https://x.com/DiscountyGame"><img class="contact-button-image" src="assets/logo-black.png"></a></button>
+            <p style="text-align: center; padding-bottom: 16px;">Or at <a onclick="window.location.href='mailto:your-email@example.com';">crinklecutgames@gmail.com</a></p> 
+    </div>
+</div> 
 </body>
 </html>
