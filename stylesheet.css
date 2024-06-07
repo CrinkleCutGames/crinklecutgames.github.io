@@ -269,7 +269,7 @@ h3{
     src: url("assets/Blogger_Sans.ttf");
 }
 
-@media only screen and (max-width: 960px){
+@media (max-width: 960px){
     
     h3{
         padding-bottom: 0;
