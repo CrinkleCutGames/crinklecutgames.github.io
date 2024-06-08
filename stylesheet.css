@@ -19,6 +19,7 @@ a{
     border: 1px #e6904e;
     border-style: none none solid none;
     text-decoration: none;
+    
 }
 a:hover{
     border: 2px #9e4539;
@@ -58,12 +59,11 @@ h3{
     left: 0;
     width: 100%;
     line-height: 0;
-    top: calc(56.24vw - 48px);
-    -ms-transform: translateY(calc(56.24vw - 48px));
-    transform: translateY(calc(56.24vw - 10vw - 54px));
     background-image: url(assets/PurpleDivider.png);
     background-repeat: repeat-x;
-    
+    top: calc(56.24vw - 10vw - 54px);
+        -ms-transform: translateY(calc(56.24vw - 10vw - 54px));
+        transform: translateY(calc(56.24vw - 10vw - 54px));
 }
 .columns {
     display: flex;
@@ -99,10 +99,18 @@ h3{
     border: 0;
     height: 56px;
 }
+.platform-button-image{
+    
+    
+}
 
 .platform-button-image{
     filter: invert(100%) saturate(0%) brightness(100);
     height: 100%;
+    width: 100;
+}
+.platform-button-image:hover{
+    filter: invert(53%) sepia(17%) saturate(1484%) hue-rotate(-10deg) brightness(146%) drop-shadow(0 0 0.75rem black);
 }
 
 .employee-picture{
@@ -131,14 +139,7 @@ h3{
     
 }
 #hero{
-    background-image: url(assets/HeroImg.png);
-    background-size: cover;
-    box-shadow: inset 0 -64px 60px #2e222f;
-    width: 100vw;
-    height: calc(56.24vw - 10vw);
-    margin: auto;
-    text-align: center;
-    position: relative;
+    
 }
 
 #game-description{
@@ -183,6 +184,7 @@ h3{
     text-align: end;
     max-width: 1140px;
     font-family: bloggersans;
+    filter: drop-shadow(0 0 0.75rem black);
 }
 
 #overlay {
@@ -210,36 +212,34 @@ h3{
 .fullscreen-button{
     background-color: transparent;
     font-size: 32px;
-    border: 1px #cd683d;
-    border-style: dashed none dashed none;
+    border: none;
     padding: 0;
     font-family: bloggersans;
     font-weight: 800;
     color:#ffffff;
-    width: 100%;
+    text-decoration: underline white;
     height: 94px;
     cursor: pointer;
 }
 
 .fullscreen-button:hover:after{
     content: 'Join Our Newsletter! 💌';
-    text-decoration: underline;
+    text-decoration: underline #e83b3b;
     
 }
 
 #newsletter-button {
     text-shadow: 1px 1px 5px #9e4539;
-}
-#newsletter-button:hover{
-    border: 2px #cd683d;
-    border-style: solid none solid none;
+    top: -8px;
+        -ms-transform: translateY(-8px);
+        transform: translateY(-8px);
 }
 #newsletter-button:after{
     content:'Join Our Newsletter! ✉️';
 }
 #newsletter-button:hover:after{
     content: 'Join Our Newsletter! 💌';
-    
+    text-shadow: 2px 2px 5px #7a3045;
 }
 
 #wishlistbutton{
@@ -249,6 +249,8 @@ h3{
 #wishlistbutton:hover{
     border: 2px #6b3e75;
     border-style: solid none solid none;
+    text-shadow: 2px 2px 5px #2e222f;
+    
 }
 #wishlistbutton:after{
     content:'Wishlist Now! 🤍';
@@ -279,15 +281,16 @@ h3{
         padding-bottom: 0;
     }
     
+   
     .section{
         min-width: 100%;
     }
     
     
     .divider{
-        top: calc(56.24vw - 48px);
-        -ms-transform: translateY(calc(56.24vw - 48px));
-    transform: translateY(calc(56.24vw - 48px));
+        top: calc(56.24vw - 10vw - 16px);
+        -ms-transform: translateY(calc(56.24vw - 10vw - 16px));
+        transform: translateY(calc(56.24vw - 10vw - 16px));
     }
     
     .halfcolumn{ 
@@ -325,8 +328,51 @@ h3{
     }
     #CcgLogo{
         width: 25vw;
+    }  
+    #wishlist-platforms{
+        text-align: center;
+        top: -56px;
+        -ms-transform: translateY(-56px);
+        transform: translateY(-56px);
+    }
+    .platform-button-image{
+        width: 36px;
+    }
+    #wishlistbutton{
+        top: 0;
+        -ms-transform: translateY(0);
+        transform: translateY(0);
     }
     
+}
+
+@media (min-width: 960px){
+    .fullscreen-button{
+        border: none;
+        text-decoration: underline;
+    }
+    .fullscreen-button:hover:after{
+        border: none;
+    }
+    #newsletter-button {
+        text-shadow: 1px 1px 5px #9e4539;
+    }
+    #newsletter-button:hover{
+        border: none;
+    }
+
+    #wishlistbutton{
+        border:none;
+    }
+    #wishlistbutton:hover{
+        border: none;
+    }
     
+    .divider{
+        
+    }
     
 }
+
+
+
